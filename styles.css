@@ -1,0 +1,25 @@
+#gameArea {
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: #28a745; /* Green color */
+    position: absolute;
+    border-radius: 50%; /* Round the snake segments */
+    border: 2px solid #155724; /* Add a darker green border for more definition */
+}
+
+.cat {
+    width: 20px;
+    height: 20px;
+    background-color: #ffc107; /* Yellow color for the cat */
+    position: absolute;
+    border-radius: 50%; /* Make the cat round as well */
+    border: 2px solid #e0a800; /* Slightly darker border for the cat */
+}
